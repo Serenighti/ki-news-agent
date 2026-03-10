@@ -3,6 +3,7 @@ name: Daily KI News
 on:
   schedule:
     - cron: '0 6 * * *'  # täglich 07:00 Uhr deutscher Zeit
+    - cron: '0 14 * * *' # täglich um 15:uu Uhr deutscher Zeit
   workflow_dispatch:       # ermöglicht manuellen Start zum Testen
 
 jobs:
