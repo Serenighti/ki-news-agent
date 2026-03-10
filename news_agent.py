@@ -5,7 +5,7 @@ def fetch_news():
     api_key = os.environ.get("NEWS_API_KEY")
     url = "https://newsapi.org/v2/everything"
     params = {
-        "q": "artificial intelligence OR AI",
+        "q": "artificial intelligence OR machine learning OR ChatGPT OR OpenAI OR Anthropic",
         "language": "en",
         "sortBy": "publishedAt",
         "pageSize": 5,
